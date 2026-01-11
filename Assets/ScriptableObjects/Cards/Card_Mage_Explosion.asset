@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60bb15c655e65d94e95fd8883519fc47, type: 3}
+  m_Name: Card_Mage_Explosion
+  m_EditorClassIdentifier: 
+  cardName: "\uD3ED\uBC1C"
+  cardType: 2
+  cost: 3
+  effectDescription: "\uC8FC\uBB38 20 \uC774\uD558: 3 \uB370\uBBF8\uC9C0\n\uC8FC\uBB38
+    21 \uC774\uC0C1: (\uC8FC\uBB38 * 2) \uB370\uBBF8\uC9C0\n\uBAA8\uB4E0 \uC8FC\uBB38
+    \uC18C\uBAA8"
+  effects:
+  - effectType: 16
+    value: 3
+    multiplier: 2
+    maxValue: 20
+    consumesBuff: 1
+    hasCondition: 0
+    conditionBuffType: 0
+    conditionThreshold: 0
+    conditionalEffectType: 0
+    conditionalValue: 0
+  - effectType: 15
+    value: 0
+    multiplier: 0
+    maxValue: 0
+    consumesBuff: 0
+    hasCondition: 0
+    conditionBuffType: 0
+    conditionThreshold: 0
+    conditionalEffectType: 0
+    conditionalValue: 0

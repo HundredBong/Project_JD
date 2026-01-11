@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60bb15c655e65d94e95fd8883519fc47, type: 3}
+  m_Name: Card_Mage_Staff
+  m_EditorClassIdentifier: 
+  cardName: "\uC9C0\uD321\uC774"
+  cardType: 2
+  cost: 1
+  effectDescription: "\uB370\uBBF8\uC9C0 6\n\uC8FC\uBB38 1 \uD68D\uB4DD"
+  effects:
+  - effectType: 0
+    value: 6
+    multiplier: 0
+    maxValue: 0
+    consumesBuff: 0
+    hasCondition: 0
+    conditionBuffType: 0
+    conditionThreshold: 0
+    conditionalEffectType: 0
+    conditionalValue: 0
+  - effectType: 6
+    value: 1
+    multiplier: 0
+    maxValue: 0
+    consumesBuff: 0
+    hasCondition: 0
+    conditionBuffType: 0
+    conditionThreshold: 0
+    conditionalEffectType: 0
+    conditionalValue: 0

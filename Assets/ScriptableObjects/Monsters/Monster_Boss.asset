@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d993ec65c3e49b04fbeb0ec16766976c, type: 3}
+  m_Name: Monster_Boss
+  m_EditorClassIdentifier: 
+  monsterName: "\uBCF4\uC2A4"
+  baseHealth: 100
+  isBoss: 1
+  patterns:
+  - actionType: 0
+    value: 15
+  - actionType: 1
+    value: 10
+  - actionType: 0
+    value: 20
+  - actionType: 1
+    value: 15
+  - actionType: 0
+    value: 40
+  - actionType: 1
+    value: 10
+  loopStartIndex: 2
+  loopEndIndex: 5
