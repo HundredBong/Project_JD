@@ -54,6 +54,12 @@ public class BattlePage : UIPage
             BattleManager.Instance.OnPhaseChanged += OnPhaseChanged;
             BattleManager.Instance.OnMonsterSpawned += OnMonsterSpawned;
             BattleManager.Instance.DeckManager.OnHandChanged += OnHandChanged;
+
+            //이미 몬스터가 존재하면 바로 구독
+            if (BattleManager.Instance.CurrentMonster != null)
+            {
+                OnMonsterSpawned(BattleManager.Instance.CurrentMonster); 
+            }
         }
 
         if (GameManager.Instance != null && GameManager.Instance.Player != null)

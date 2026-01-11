@@ -126,10 +126,13 @@ public class Player
 
     public void ResetForNewBattle()
     {
-        //새로운 전투용 버프 초기화
+        //새로운 전투용 초기화
 
+        _currentHealth = _maxHealth;
         _buffSystem.ClearAll();
         _damageTakenThisTurn = 0;
+
+        OnHealthChanged?.Invoke(_currentHealth, _maxHealth);
     }
 
     public void FullReset(int maxHealth, int turnStartCost)

@@ -12,21 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d993ec65c3e49b04fbeb0ec16766976c, type: 3}
   m_Name: Monster_B
   m_EditorClassIdentifier: 
-  monsterName: "\uBAB0\uC2A4\uD130 B"
-  baseHealth: 50
+  monsterName: "\uBAAC\uC2A4\uD130 B"
+  baseHealth: 25
   isBoss: 0
   patterns:
   - actionType: 1
-    value: 3
+    value: 1
+  - actionType: 1
+    value: 2
+  - actionType: 0
+    value: 5
+  - actionType: 1
+    value: 4
   - actionType: 1
     value: 5
   - actionType: 0
-    value: 10
-  - actionType: 1
-    value: 8
-  - actionType: 1
-    value: 10
-  - actionType: 0
-    value: 25
+    value: 12
   loopStartIndex: 3
   loopEndIndex: 5
